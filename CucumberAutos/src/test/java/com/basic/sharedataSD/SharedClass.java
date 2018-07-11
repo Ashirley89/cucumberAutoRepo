@@ -13,7 +13,7 @@ public class SharedClass {
 	@Before
 	public WebDriver setup() {
 		if (driver==null) {
-			System.setProperty("webdriver.chrome.driver", "/Users/kuntu/Desktop/softwareqa/chromedriver"); 
+			System.setProperty("webdriver.chrome.driver", "/Users/kuntu/softwareqa/chromedriver"); 
 			driver = new ChromeDriver();
 		}
 		return driver;

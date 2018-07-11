@@ -19,7 +19,7 @@ public class HooksStepDef {
 	@Before(order=1)
 	public void beforeSetup1() {
 		System.out.println("In before1");
-		System.setProperty("webdriver.chrome.driver", "/Users/kuntu/Desktop/softwareqa/chromedriver"); 
+		System.setProperty("webdriver.chrome.driver", "/Users/kuntu/softwareqa/chromedriver"); 
 		driver = new ChromeDriver();
 	}
 	

@@ -14,7 +14,7 @@ WebDriver driver=null;
 	
 	@Given("^User needs to be on google page$")
 	public void User_needs_to_be_on_google_page (){
-		System.setProperty("webdriver.chrome.driver", "/Users/kuntu/Desktop/softwareqa/chromedriver"); 
+		System.setProperty("webdriver.chrome.driver", "/Users/kuntu/softwareqa/chromedriver"); 
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		

@@ -15,7 +15,7 @@ WebDriver driver=null;
 	
 	@Given("^User needs to be on demo site page$")
 	public void user_needs_to_be_on_demo_site_page (){
-		System.setProperty("webdriver.chrome.driver", "/Users/kuntu/Desktop/softwareqa/chromedriver"); 
+		System.setProperty("webdriver.chrome.driver", "/Users/kuntu/softwareqa/chromedriver"); 
 		driver = new ChromeDriver();
 		driver.get("http://demo.automationtesting.in/Register.html");
 		
